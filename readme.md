@@ -4,7 +4,7 @@ This is a Node JS project to demonstrate **how to retry a failed request multipl
 
 # Get Started
 
-It includes 2 endpoints for testing:
+It includes 2 **GET** endpoints for testing:
 
 -   `/normal-request`: to test a normal request
 -   `/retry-request`: to test a resubmission request

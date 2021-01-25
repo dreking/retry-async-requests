@@ -42,7 +42,7 @@ const makeRequest = async function (uri, callback) {
     }
 };
 
-app.use('/retry-request', function (req, res) {
+app.get('/retry-request', function (req, res) {
     // interval is in milliseconds
     retry(
         { times: 5, interval: 2000 },
