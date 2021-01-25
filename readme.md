@@ -16,3 +16,7 @@ It includes 2 endpoints for testing:
 # Installing
 
 -   In the terminal type `npm install` to install all required packages
+
+# Run
+
+-   type `node index.js`
